@@ -50,9 +50,6 @@ Run `rails db:migrate` and make sure the commande succeded
 
 ![screenshot](screenshots/three.png)
 
-![screenshot](screenshots/four.png)
-
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
