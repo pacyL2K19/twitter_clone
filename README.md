@@ -1,24 +1,61 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# Twitter clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is about User management logic on web applications using RoR
+> This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication 
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- RUBY
+- Ruby On Rails
+- Visual Code
 
-* System dependencies
+## GET STARTED
 
-* Configuration
+#### Requirements 
 
-* Database creation
+- At least one code editor installed (VS Code for example)
+- Git installed
+- Ruby installed
+- At least one web browser
+#### Clone the repository
 
-* Database initialization
+- Click on the "code" button above on this page and copy the link to the repository
+- Run 
+```
+  git clone git@github.com:pacyL2K19/twiter_clone.git
+```
+- Go to the cloned repository run `cd re-former`
 
-* How to run the test suite
+#### Installe required Gem
 
-* Services (job queues, cache servers, search engines, etc.)
+- In the terminale, run `bundle install`
+- [optional] Run `bundle update`
 
-* Deployment instructions
+#### Set up the database tables 
 
-* ...
+Run `rails db:migrate` and make sure the commande succeded
+
+#### Test all in the browser
+
+- Run `$ rails server`
+- In the browser go to http://127.0.0.1:3000/
+- This page should display ⬇️
+
+#### Main pages
+
+![screenshot](screenshots/one.png)
+
+![screenshot](screenshots/two.png)
+
+![screenshot](screenshots/three.png)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+## Author
+
+👤 **Pacifique Linjanja**
+- Github: [@pacyL2K19](https://github.com/pacyL2K19)
+- Twitter: [@PacifiqueLinja1](https://twitter.com/PacifiqueLinja1)
+- Linkedin: [Pacifique Linjanja](https://www.linkedin.com/in/pacifique-linjanja/)
