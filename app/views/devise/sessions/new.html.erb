@@ -20,11 +20,7 @@
             <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
           </div>
         </div>
-        <div class="field">
-          <div class="control">
-            <%= f.button :submit, "Login" %>
-          </div>
-        </div>
+        <%= f.button :submit, "Login", class: "button is-info is-primary" %>
       <% end %>
       <br />
       <%= render "devise/shared/links" %>
