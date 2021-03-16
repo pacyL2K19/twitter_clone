@@ -16,7 +16,7 @@
 <% @tweets.each do | tweet | %>
 
     <div class="box">
-        <article class="media box">
+        <article class="media">
             <figure class="media-left">
                 <p class="image is-64x64">
                     <img src="https://bulma.io/images/placeholders/64x64.png">
@@ -30,6 +30,13 @@
                         <%= tweet.tweet %>
                     </p>
                 </div>
+                <nav class="level">
+                    <div class="level-left is-mobile">
+                        <% link_to  tweet, class: "level-item" do %>
+                            <span class="icon"><i class="fa fa-link"></i></span>
+                        <% end %>
+                    </div>
+                </nav>
             </div>
         </article>
     </div>
